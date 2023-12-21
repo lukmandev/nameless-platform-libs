@@ -1,4 +1,4 @@
-module github.com/lukmandev/nameless-platform-libs
+module github.com/lukmandev/nameless/platform_libs
 
 go 1.21.5
 

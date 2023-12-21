@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/jackc/pgx/v5"
-	"github.com/lukmandev/nameless/platform_libs/pkg/db"
-	"github.com/lukmandev/nameless/platform_libs/pkg/db/pg"
+	"github.com/lukmandev/nameless-platform-libs/pkg/db"
+	"github.com/lukmandev/nameless-platform-libs/pkg/db/pg"
 	"github.com/pkg/errors"
 )
 

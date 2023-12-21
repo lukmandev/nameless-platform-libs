@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/lukmandev/nameless/platform_libs/pkg/db"
+	"github.com/lukmandev/nameless-platform-libs/pkg/db"
 	"github.com/pkg/errors"
 )
 

@@ -5,9 +5,10 @@ import (
 	"os"
 	"os/signal"
 	"sync"
+	"syscall"
 )
 
-var globalCloser = New()
+var globalCloser = New(syscall.SIGINT, syscall.SIGTERM)
 
 type Closer struct {
 	mu    sync.Mutex
